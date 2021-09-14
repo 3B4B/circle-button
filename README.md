@@ -40,5 +40,5 @@ Design considerations
 A name that's semantic --> Ex. <SimpleButton>.  Need to come up with best name
 Description
 Responsive
-Change size when window size changes![image](https://user-images.githubusercontent.com/49504930/133315181-c724c76d-d9f1-4f11-8723-95e6d138d3dc.png)
+Change size when window size changes!
 
