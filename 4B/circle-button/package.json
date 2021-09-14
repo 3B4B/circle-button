@@ -1,0 +1,28 @@
+{
+  "name": "circle-button",
+  "description": "Webcomponent circle-button following open-wc recommendations",
+  "license": "MIT",
+  "author": "circle-button",
+  "version": "0.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server",
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --watch",
+    "storybook": "npm run analyze -- --exclude dist && web-dev-server -c .storybook/server.mjs",
+    "storybook:build": "npm run analyze -- --exclude dist && build-storybook"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@open-wc/testing": "next",
+    "@web/dev-server": "^0.1.22",
+    "@web/dev-server-storybook": "next",
+    "@web/test-runner": "^0.13.17"
+  },
+  "customElements": "custom-elements.json"
+}
