@@ -7,11 +7,10 @@ properties:
 
 states: 
 * hover
-swap background and text colors 
+	* swap background and text colors 
 * disabled
-grey out
+	* grey out
 * active
-
 * focus 
 
 
