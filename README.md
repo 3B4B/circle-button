@@ -1,4 +1,4 @@
-#Team notes
+# Team Notes
 
 properties: 
 * title 
