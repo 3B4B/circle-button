@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+/* 
+    @media(prefers-color-scheme: dark){
+      body{
+        background-color: black; 
+      }
+    }
+     */
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+  <circle-button-ad dark></circle-button-ad>
+  <circle-button-ad disabled="true">abcd</circle-button-ad>
+  <circle-button-ad dark disabled="true"></circle-button-ad>
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../circle-button-ad.js';
+
+    const title = 'Button1';
+    render(
+      html`
+        <circle-button-ad .title=${title}>
+        </circle-button-ad>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
