@@ -1,9 +1,9 @@
 {
-  "name": "circle-button",
-  "description": "Webcomponent circle-button following open-wc recommendations",
+  "name": "@3b4b/circle-button-fj",
+  "description": "Webcomponent circle-button-fj following open-wc recommendations",
   "license": "MIT",
-  "author": "circle-button",
-  "version": "0.0.0",
+  "author": "circle-button-fj",
+  "version": "0.0.1",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -15,7 +15,13 @@
     "storybook:build": "npm run analyze -- --exclude dist && build-storybook"
   },
   "dependencies": {
+    "@lrnwebcomponents/air-horn": "^4.0.0",
+    "@lrnwebcomponents/simple-icon": "^4.0.0",
     "lit": "^2.0.0-rc.4"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.4.17",

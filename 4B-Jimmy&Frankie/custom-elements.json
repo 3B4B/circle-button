@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "circle-button-fj.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "circle-button-fj",
+          "declaration": {
+            "name": "CircleButtonFj",
+            "module": "/src/circle-button-fj.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "CircleButtonFj",
+          "declaration": {
+            "name": "CircleButtonFj",
+            "module": "./src/CircleButtonFj.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/circle-button-fj.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "CircleButtonFj",
+          "members": [
+            {
+              "kind": "method",
+              "name": "__clickButton",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "field",
+              "name": "title",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Yes'",
+              "privacy": "public",
+              "attribute": "title"
+            },
+            {
+              "kind": "field",
+              "name": "description",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "privacy": "public",
+              "attribute": "description"
+            },
+            {
+              "kind": "field",
+              "name": "link",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"https://blog.hubspot.com/marketing/call-to-action-examples\"",
+              "privacy": "public",
+              "attribute": "link"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "null"
+              },
+              "default": "null",
+              "privacy": "public",
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "privacy": "public",
+              "attribute": "disabled",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "dark",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "privacy": "public",
+              "attribute": "dark",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "contrast",
+              "privacy": "public",
+              "attribute": "contrast",
+              "reflects": true
+            }
+          ],
+          "attributes": [
+            {
+              "name": "title",
+              "fieldName": "title"
+            },
+            {
+              "name": "link",
+              "fieldName": "link"
+            },
+            {
+              "name": "icon",
+              "fieldName": "icon"
+            },
+            {
+              "name": "disabled",
+              "fieldName": "disabled"
+            },
+            {
+              "name": "description",
+              "fieldName": "description"
+            },
+            {
+              "name": "contrast",
+              "fieldName": "contrast"
+            },
+            {
+              "name": "dark",
+              "fieldName": "dark"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "circle-button-fj",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "CircleButtonFj",
+          "declaration": {
+            "name": "CircleButtonFj",
+            "module": "src/circle-button-fj.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories/index.stories.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "FullCustom"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "FullCustom",
+          "declaration": {
+            "name": "FullCustom",
+            "module": "stories/index.stories.js"
+          }
+        }
+      ]
+    }
+  ]
+}
