@@ -1,5 +1,7 @@
 # Team Notes
 
+>*Note: This file was an iniital planning file amongst the entire team. To view contribution logs for each individual partnership, please view the TeamNotes.md files within their specific folders*
+
 properties: 
 * title 
 * subtitle
